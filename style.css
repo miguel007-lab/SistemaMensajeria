@@ -1,0 +1,250 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    /* Alinea los elementos en fila (horizontalmente) */
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: -20px;
+}
+
+
+
+
+.chat-column {
+    flex: 1;
+    /* Ocupa todo el espacio disponible en la fila */
+    /* Agrega un borde a las columnas */
+    padding: 10px;
+    border: 1px solid #9e9999;
+}
+
+
+.chat-menu {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+    padding-bottom: 4px;
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-top: 0%;
+}
+
+
+.active-now {
+    font-weight: normal;
+    margin-right: 0px;
+    font-size: 8px;
+    color: #bcadad;
+}
+
+.chat-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 6px;
+    object-fit: contain;
+    filter: invert(50%);
+}
+
+/* Estilos para contactos */
+.contacts {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.contacts-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* ajusta el valor según tus necesidades */
+    padding: 0;
+    margin: 0;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d5ccea;
+    padding: 0 0;
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    color: #49484a;
+    background-color: #ffffff;
+}
+
+
+/* Estilos para el botón Nuevo Chat */
+.column {
+    text-align: center;
+}
+
+.new-chat-button {
+    display: flex;
+    padding: 16px 60px;
+    font-size: 16px;
+    background-color: #A491D2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 40px auto;
+    margin-right: 48px;
+    margin-left: 66px;
+}
+
+
+
+/* Estilos para la sección principal */
+.main-section {
+    flex: 3;
+    background-color: #f3f2f2e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+    max-width: 300px;
+    border-radius: 4%;
+    background-color: #A491D2;
+}
+
+.logo p {
+    font-size: 45px;
+}
+
+/* Estilos generales */
+h1, p {
+    margin: 0;
+    /* Elimina el margen vertical */
+    padding: 0;
+    /* Elimina el relleno vertical */
+    line-height: 1;
+    /* Ajusta la altura de línea a 1 para evitar espacios adicionales */
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: normal;
+    /* Ajusta otros estilos según tus necesidades */
+}
+
+.division {
+    border-bottom: 1px solid #d5ccea;
+    margin-right: -0px;
+    margin-left: -0px;
+}
+
+/* Estilos generales en contactos */
+ul.contacts-items,
+li.contact-item,
+img.user-avatar,
+div.contact-details,
+h5.contact-name,
+h6.last-message {
+    margin: 2px;
+    padding: 0x;
+    
+}
+
+ul.contacts-items {
+    list-style: none;
+    padding: 0px;
+}
+
+li.contact-item {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+img.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 8px
+}
+
+img.chat-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+    margin-left: 48px;
+    margin-bottom: 4px;
+}
+
+
+div.contact-details {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+h5.contact-name {
+    font-size: 18px;
+    color: #000;
+    margin-right: 6px;
+    font-weight: normal;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+h6.last-message {
+    font-size: 14px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.active-now {
+    /* Centra horizontalmente */
+    display: center;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 0px;
+    margin-bottom: 8px;
+}
